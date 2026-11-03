@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ===== 개인 대화 데이터 - 절대 커밋 금지 =====
+data/*
+!data/.gitkeep
+*.txt
+!requirements.txt
+!sample/*.txt
+.DS_Store
